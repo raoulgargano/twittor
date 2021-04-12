@@ -1,6 +1,12 @@
+var url = window.location.href;
+var swLocation = '/twittor/sw.js'
+
 // Registar SW
 if ( navigator.serviceWorker && window.caches) {
-    navigator.serviceWorker.register('../sw.js');
+    if(url.includes('localhost')){
+        swLocation= '/sw.js';
+    }
+    navigator.serviceWorker.register(swLocation);
 } else {
     console.log('ESTE NAVEGADOR NO ES COMPATIBLE CON SERVICE WORKER', false);
 }
