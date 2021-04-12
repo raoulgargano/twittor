@@ -1,8 +1,9 @@
 importScripts('js/sw-utils.js');
 
-const CACHE_STATIC_APP = 'static_v1.0.4'; // Para librerias base de nuestra app
+const CACHE_STATIC_APP = 'static_v1.0.5'; // Para librerias base de nuestra app
 const CACHE_INMUTABLE_APP = 'inmutable_v1.0.1'; // Para librerias de tercero o elemento que no pueden cambiar
-const CACHE_DYNAMIC_APP = 'dynamic_v1.0.1'; // Para librerias  o elemento dinamico
+
+const CACHE_DYNAMIC_APP = 'dynamic_v1.0.2'; // Para librerias  o elemento dinamico
 const NUM_MAX_DYAMIC = 50; // Elemento max cache dinamica
 
 // Elemento/librerias base/esenciales de nuestra app
