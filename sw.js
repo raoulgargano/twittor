@@ -7,17 +7,17 @@ const NUM_MAX_DYAMIC = 50; // Elemento max cache dinamica
 
 // Elemento/librerias base/esenciales de nuestra app
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
-    '/img/avatars/hulk.jpg',
-    '/img/avatars/ironman.jpg',
-    '/img/avatars/spiderman.jpg',
-    '/img/avatars/thor.jpg',
-    '/img/avatars/wolverine.jpg',
-    '/js/app.js',
-    '/js/sw-utils.js'
+    // '/', // solo en desarollo localhost
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/hulk.jpg',
+    'img/avatars/ironman.jpg',
+    'img/avatars/spiderman.jpg',
+    'img/avatars/thor.jpg',
+    'img/avatars/wolverine.jpg',
+    'js/app.js',
+    'js/sw-utils.js'
 ];
 
 // Elementos/librerias que no se van a cambiar
